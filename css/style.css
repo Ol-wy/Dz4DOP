@@ -25,8 +25,8 @@
 
 .input1 {
     padding: 10px 20px;
-    border: 1px solid #002BFF;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    border: 1px solid #fff;
+    background-color: transparent;
     border-radius: 5px;
     font-size: 27px;
     text-transform: uppercase;
@@ -35,8 +35,8 @@
 
 .input2 {
     padding: 10px 20px;
-    border: 1px solid #002BFF;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    border: 1px solid #fff;
+    background-color: transparent;
     border-radius: 5px;
     font-size: 27px;
     text-transform: uppercase;
