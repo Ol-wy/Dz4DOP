@@ -1,0 +1,74 @@
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.counter__inner {
+    text-align: center;
+    padding-top: 300px;
+}
+
+.input1 {
+    padding: 10px 20px;
+    border: 1px solid #002BFF;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    border-radius: 5px;
+    font-size: 27px;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+.input2 {
+    padding: 10px 20px;
+    border: 1px solid #002BFF;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    border-radius: 5px;
+    font-size: 27px;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+.btn {
+    background: transparent;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    border: 3px solid #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 800px;
+    font-size: 20px;
+    box-shadow: 0 0 0 white;
+    transition: ease-in .5s;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: ease-in-out .5s;
+}
+
+.btn:hover{
+    box-shadow: 0 0 20px #fff,
+    inset 200px 0 #fff
+}
+
+.btn:hover a {
+    color: rgb(38, 38, 38);
+}
